@@ -8,6 +8,6 @@ router.get("/", PageController.home);
 router.get("/dogs", PageController.dogs);
 router.get("/cats", PageController.cats);
 router.get("/fish", PageController.fish);
-router.get("/", PageController.home);
+router.get("/search", SearchController.search);
 
 export default router;
